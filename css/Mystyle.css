@@ -1,0 +1,320 @@
+body
+{
+    font-family:Montserrat;
+}
+.relative
+{
+    position:relative;
+    
+}
+
+.intr
+{
+    padding: 250px 0 650px 0;
+}
+
+@media (min-width:1200px)
+{
+    .relative
+    {
+     max-height: 950px;
+     min-height: 400px;
+    }
+     .carousel-inner
+    {
+        top:0px;
+    }
+    .intr h2
+    {
+        font-size: 50px;
+    }
+}
+@media (min-width:992px) and (max-width:1199px)
+{
+    .relative
+    {
+     max-height: 750px;
+     min-height: 400px;
+    }
+    .carousel-inner
+    {
+        top:80px;
+    }
+    header h2
+    {
+        font-family: sans-serif;
+    }
+    .intr h2
+    {
+        font-size: 50px;
+    }
+    
+}
+@media (min-width:768px) and (max-width:991px)
+{
+    .relative
+    {
+     max-height: 700px;
+     min-height: 400px;
+    }
+    .carousel-inner
+    {
+        top:100px;
+    }
+}
+
+@media (min-width:480px) and (max-width:767px)
+{
+    .relative
+    {
+     max-height: 500px;
+     min-height: 200px;
+    }
+     .carousel-inner
+    {
+        top:130px;
+    }
+     .intr
+    {
+        padding: 200px 0 650px 0;
+    }
+    
+}
+@media (min-width:280px) and (max-width:479px)
+{
+    .relative
+    {
+     max-height: 500px;
+     min-height: 200px;
+    }
+   
+     .carousel-inner
+    {
+        top:200px;
+    }
+    .carousel-inner item
+    {
+        height: 300px;
+    }
+   .intr
+    {
+        padding: 200px 0 650px 0;
+    }
+}
+
+
+.absolute{
+    position:absolute;
+    max-height: 400px;
+    min-height: 600px;
+    top:45%;
+    left:28%;
+    right: 22%;
+}
+.imght
+{
+    min-height:400px;
+    max-height:850px;
+   
+}
+
+header h2
+{
+    text-shadow: 2px 2px 5px #000; 
+}
+
+#head h1
+{
+	color:#fff;
+	font-weight:bold;
+	text-shadow:0px -5px 40px #000;
+	-webkit-text-shadow:10px -5px 40px #000;
+}
+#head h6, #head h1
+{
+	color:#fff;
+	
+}
+.hd1
+{
+	padding:250px 0 400px 0;
+}
+
+#head2
+{
+	background-color:#eebe29;
+	color:#fff;
+	padding-bottom:20px;
+	}
+#head2 span
+{
+	padding: 0 30px;
+    border-bottom: 4px solid #fff;
+}
+
+#about
+{
+	padding:140px 0;
+	}
+#about .abt
+{
+	border-top: 4px solid #eebe29;
+	padding:0 60px;
+}
+#about .lead
+{
+    color:#7e7e7e;
+    padding-bottom: 10px;
+}
+#about h2
+{
+	font-weight:bold;
+	margin:0px;
+	padding:0px;
+	color:#000;
+	}
+#features, #touch
+{
+	padding:140px 0;
+	background-color:#f6f6f6;
+	}
+#features .row img
+{
+	height:80px;
+	}
+#features .row div
+{
+	padding:30px 0;
+}
+#features span
+{
+	padding:15px;
+	border-top:4px solid #eeb121;
+    color:#7e7e7e;
+}
+#features h2, #touch h2
+{
+	font-weight:bold;
+	color:#000;	
+}
+#features .ftr:hover
+{
+    box-shadow: 3px 3px 10px 1px #333;
+}
+
+
+#portfolio
+{
+    padding: 140px 0;
+}
+#portfolio .container span
+{
+    border-top:4px solid #eebe29;
+	padding:15px 0;
+	color:#7e7e7e
+}
+#portfolio h2
+{
+    font-weight:bold;
+	color:#000;
+}
+#portfolio a
+{
+    box-shadow: 3px 3px 10px 1px #333;
+}
+.prt
+{
+    padding: 5px 0;
+}
+
+#ui
+{
+    background-color: #eeb121;
+    padding: 50px 0;
+   -moz-box-shadow:    inset 0 0 150px -30px #909090;
+   -webkit-box-shadow: inset 0 0 150px -30px #909090;
+   box-shadow:         inset 0 0 150px -30px #909090;
+}
+
+#touch span
+{
+	padding:0 40px;
+	border-top:4px solid #eeb121;
+}
+#touch h2
+{
+	margin-top:0;	
+}
+#touch .row
+{
+	padding-top:30px;
+}
+.form-control
+{
+	border-radius:0;
+	margin-bottom:10px;	
+}
+.btn-submit
+{
+	border-radius:0;
+	background-color:#f3ae0f;
+	margin: 0 0 15px 14px;
+	width:80px;
+    color: #000;
+}
+.btn-submit:hover
+{
+     box-shadow: 3px 3px 10px 1px #333;
+}
+.btn-reset
+{
+	border-radius:0;
+	background-color:#767676;
+	margin:0 0 15px 10px;
+	width:80px;
+    color:#fff;
+}
+.btn-reset:hover
+{
+     box-shadow: 3px 3px 10px 1px #333;
+}
+
+#footer
+{
+	background-color:#494949;
+	padding:40px 0;
+}
+
+#footer span a
+{
+	color:#fff;
+	padding:13px;
+	}
+#footer img:hover
+{
+    box-shadow: 2px 2px 8px 1px #333;
+}
+
+
+.fln , .fln a
+{
+	color:#fff;
+	padding:15px 0;
+}
+.bdr
+{
+    border-bottom: 1px solid #333;
+}
+header
+{
+    background-image:url(../img/bgimage.png);
+    background-repeat:none;
+    background-attachment:scroll;
+    
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+    -o-background-size:cover;
+    text-align:center;
+    color:#fff
+}
